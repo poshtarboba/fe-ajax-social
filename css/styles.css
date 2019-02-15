@@ -1,0 +1,31 @@
+html { padding:0; margin:0;}
+body { position:relative; margin:0; padding:0; color:#434343; font:normal 16px/26px Helvetica, Arial, sans-serif; background:#fff;}
+.clr:after { content:""; display:block; clear:both;}
+
+p { margin:0; padding:0;}
+a { color:inherit; text-decoration:none;}
+a:hover, a:focus { text-decoration:none; color:inherit;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0;}
+form, menu, iframe { display:block; margin:0; padding:0; width:100%; border:none;}
+input[type="submit"] { cursor:pointer;}
+* { outline:none;}
+
+.wrap { margin:0 auto; padding:88px 20px 0; width:100%; max-width:700px; border:1px solid #eee;}
+.post { position:fixed; z-index:20; left:0; top:0; width:100%;}
+.post .wrap { padding:20px; background:#ccc;}
+.post .wrap input { width: 100%; box-sizing:border-box;}
+.post form { display:none;}
+.post .new { font-weight:bold; text-decoration:underline; cursor:pointer;}
+.post label { display:block; margin:20px 0;}
+
+article { padding:0 0 60px;}
+article img { display:block; margin:0 0 20px; max-width:100%; max-height:1200px;}
+article .info { position:relative;}
+article .like { position:absolute; right:0; top:0; padding:0 40px 0 0; line-height:32px; cursor:pointer;}
+article .like:before { content:''; position:absolute; right:0; top:0; width:32px; height:32px; background:url(../img/like.png) no-repeat right center; opacity:0.3;}
+article .like:hover:before { opacity:0.6;}
+article .like.active:before { opacity:1;}
+
+.get { display:block; margin:0 0 60px; padding:20px 0; text-align:center; background:#eee; border:1px solid #ccc; border-radius:3px;}
+.get:hover { background:#ddd;}
